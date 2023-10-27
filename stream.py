@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-import sklearn
 
 
 st.write("""
@@ -86,3 +85,7 @@ st.write(maternal_risks[prediction])
 
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
+
+st.write('**Developer: Hellen Nakabuye hellennakabuye23@gmail.com**')
+
+st.subheader(':red[Thank you for using The ***Maternal Risk App***]')
